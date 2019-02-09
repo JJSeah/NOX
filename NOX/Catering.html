@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nox | Catering </title>
+    <meta charset="utf-8">
+    <link href="styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/catering.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <meta name="author" content="Steven" />
+
+</head>
+<body id="top">
+    <div class="bgded overlay" style="background-image:url('images/food.jpg')">
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+                <div id="logo" class="fl_left">
+                    <h1><a href="index.html">NOX</a></h1>
+                </div>
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li>
+                            <a class="active" href="Menu.html">Menu</a>
+                            <ul>
+                                <li><a href="starters.html">Starters</a></li>
+                                <li><a href="Sides.html">Sides</a></li>
+                                <li><a href="Mains.html">Mains</a></li>
+                                <li><a href="Drinks.html">Drinks</a></li>
+                                <li><a href="Desert.html">Desert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Order.html">Order Online</a>
+                        <li><a href="Catering.html">Catering</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                        <li><a href="Contact.html">Contact & Reservation</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="pageintro" class="hoc clear">
+            <article class="introtxt">
+                <h2 class="heading">NOX</h2>
+                <p>Only the Finest Food.</p>
+            </article>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="wrapper row3">
+        <main class="hoc container clear">
+            <!-- main body -->
+            <div class="content">
+                <div id="gallery">
+                    <figure>
+                        <header class="heading">Catering</header>
+                        <ul class="nospace clear">
+                            <li class="one_quarter first">
+                                <a href="#"><img src="images/food.jpg" alt=""> Chinese New Years</a><br />Usher in the Lunar New Year over great food with your loved ones this CNY. Reunion menu from 8 to 100pax, we have it all catered! Available before eve to the 15th day of CNY.
+                                <br /><a>€ 12.99++ Per Pax</a>
+                                <br />
+                                <button id="myBtn" class="btn small">Details</button>
+
+                                <div id="myModal" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close" id="close">&times;</span>
+                                        <ul>
+                                            <h1>Menu</h1>
+                                            <li> Abundence Yu Sheng</li>
+                                            <li> Fish Maw</li>
+                                            <li>Scallop</li>
+                                            <li>Sea Cumber</li>
+                                            <li>Prawn</li>
+                                            <li>Roasted Ducks</li>
+                                            <li>Fried Chicken Thigh</li>
+                                            <li>Yam</li>
+                                            <li>Flower Mushrom</li>
+                                            <li>Bailing Mushroom</li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+
+
+                            </li>
+                            <li class="one_quarter">
+                                <a href="#"><img src="images/food.jpg" alt="">Regular Buffet</a><br />Great for boisterous events of 30 guests and above. Buffet comes complete with food warmers, fully dressed table setups and full set of disposable cutleries and serviettes.
+                                <br /><a>€ 9.99++ Per Pax</a>
+                                <br />
+                                <button id="myBtn2" class="btn small">Details</button>
+
+                                <div id="myModal2" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close2" id="close">&times;</span>
+                                        <ul>
+                                            <h1>Menu</h1>
+                                            <li> Crab cakes.</li>
+                                            <li> Scallops appetizer </li>
+                                            <li>Tortilla Chips</li>
+                                            <li>Herb crusted rack of lamb </li>
+                                            <li>Yuzu curd. Lemon sorbet.</li>
+                                            <li>Molten Lava Cake. Vanilla bean ice cream</li>
+
+                                        </ul>
+                                    </div>
+                                  
+
+                                </div>
+
+
+                            </li>
+
+                            <li class="one_quarter">
+                                <a href="#"><img src="images/food.jpg" alt="">Premium Buffet</a><br />Impress guests with an international fare of handcrafted flavours and curated dishes. Buffet comes complete with food warmers, fully dressed table setups and full set of disposable cutleries and serviettes.
+                                <br /><a>€ 20.99++ Per Pax</a>
+                                <br />
+                                <button id="myBtn3" class="btn small">Details</button>
+
+                                <div id="myModal3" class="modal">
+
+                                    <div class="modal-content">
+                                        <span class="close3" id="close">&times;</span>
+
+                                        <ul>
+                                            <h1>Menu</h1>
+                                            <li> Foie Gras</li>
+                                            <li> Scallops appetizer </li>
+                                            <li>Colcannon Mashed Potatoes</li>
+                                            <li>Fillet of Beef Wellington. </li>
+                                            <li>Duck confit</li>
+                                            <li>Yuzu curd. Lemon sorbet.</li>
+                                            <li>Caramelized apple tarte tatin. Vanila bean ice cream</li>
+                                            <li>Goat cheese souffle. Chocolate sauce</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="one_quarter">
+                                <h6>Order</h6>
+                                <form onsubmit="myFunction()">
+                                    <i class="fa fa-user" aria-hidden="true"></i><input type="text" name="name" placeholder="Full Name" required>
+                                    <i class="fa fa-envelope-o"></i><input type="email" name="address" placeholder="Email address" required>
+                                    <i class="fa fa-phone"></i><input type="tel" name="phone" placeholder="Phone Number" pattern="[8 9 6]{1}[0-9]{7}" required>
+                                    <i class="fa fa-users" aria-hidden="true"></i><input min="5" max="100" value="" type="number" name="number of people" placeholder="Number" id="quantity" onchange="Menu()" required>
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i><input type="text" name="address" placeholder="Address" required>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i><input type="date" name="date" placeholder="Date"id="date" required>
+                                    <p>
+
+                                        <i class="fa fa-list" aria-hidden="true"></i>
+                                        <select id="menu" onchange="Menu()">
+                                            <option value="Menu">Select a Menu</option>
+                                            <option value="Chinese New Years">Chinese New Years</option>
+                                            <option value="Regular Buffet">Regular Buffet</option>
+                                            <option value="Premium Buffet">Premium Buffet</option>
+                                        </select>
+                                    </p>
+
+                                    <a>ORDER</a>
+                                    <p id="order">Your Order is Empty</p>
+                                    <h1 id="display">Total  &nbsp; € 0.00</h1>
+                                    <input type="submit" value="Submit" class="btn medium">
+                                    <input type="reset" value="reset" class="btn medium" />
+                                </form>
+                                
+                            </li>
+
+                        </ul>
+                    </figure>
+                </div>
+            </div>
+            <!-- ################################################################################################ -->
+            <!-- / main body -->
+            <div class="clear"></div>
+        </main>
+    </div>
+    <div class="wrapper row4">
+        <footer id="footer" class="hoc clear">
+            <div class="one_quarter first">
+                <h6 class="title">Description</h6>
+                <p>Nox is one of the finest restaurants there is in Singapore. We hope to see you soon.</p>
+
+            </div>
+            <div class="one_quarter">
+                <h6 class="title">Address</h6>
+                <ul class="nospace linklist contact">
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <address>
+                            123 Orchard Road,
+                            ION Orchard Shopping Mall
+                            #05-99 Singapore 238123
+                        </address>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i> +65 6765 5462<br>
+                        +65 8190 0987
+                    </li>
+                    <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+                </ul>
+            </div>
+            <div class="one_quarter">
+                <h6 class="title">News letter</h6>
+                <ul class="nospace linklist">
+                    <li>
+                        <article>
+                            <h2 class="nospace font-x1"> CELEBRATIONs </h2>
+                            <time class="font-xs block btmspace-10" datetime="2018-05-03">Friday, 5<sup>th</sup> March 2018</time>
+                            <p class="nospace">We celebrate our 20<sup>th</sup> anniversary of NOX. To many more years! </p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h2 class="nospace font-x1"><a href="#"></a> Anniversary </a></h2>
+                            <time class="font-xs block btmspace-10" datetime="2018-04-04">Thursday, 4<sup>th</sup> April 2018</time>
+                            <p class="nospace">Recieved our first Michelin star in Singapore</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <div class="one_quarter">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7850506970467!2d103.82977605000944!3d1.3039990620804136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da198dea21cc31%3A0x5cbe8874aa0b1b37!2sION+Orchard+Mall!5e0!3m2!1sen!2ssg!4v1515653475029" width="400" height="300" frameborder="0" style="border:10px" allowfullscreen></iframe>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+</body>
+</html>
